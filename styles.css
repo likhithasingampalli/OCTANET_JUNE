@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 935px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.phone-preview img {
+    max-width: 100%;
+    height: auto;
+}
+
+.login-form {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+    max-width: 350px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.login-form h1 {
+    font-family: 'Billabong', cursive;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form input {
+    border: 1px solid #dbdbdb;
+    background: #fafafa;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+.login-form button {
+    background-color:palevioletred;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.login-form .divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.login-form .divider::before,
+.login-form .divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.login-form .divider::before {
+    margin-right: .25em;
+}
+
+.login-form .divider::after {
+    margin-left: .25em;
+}
+
+.facebook-login {
+    background-color: #91aeec;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.forgot-password {
+    color: #b4367b;
+    text-decoration: none;
+    margin-top: 10px;
+    display: block;
+}
